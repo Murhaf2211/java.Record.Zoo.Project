@@ -40,9 +40,3 @@ public class Main {
 }
 
 
-
-//Let each Animal have a Species.
-//
-//In your main method, let multiple Animal objects have the same Species.
-//
-//If you have already completed this task earlier, you can work on the bonus task on the next page.
