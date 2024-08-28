@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -27,6 +29,13 @@ public class Main {
         System.out.println("---------------");
         System.out.println(lion.equals(tiger));
         System.out.println(lion.equals(lion2));
+        System.out.println("---------------");
+        Zoo zoo = new Zoo(List.of(lion, lion2, tiger, bear, elephant));
+        System.out.println(zoo);
+        System.out.println("---------------");
+        // Print total food requirement of all animals in the Zoo
+        System.out.println("Total food requirement for all animals in the Zoo: "
+                + zoo.calculateTotalFoodRequirement() + " grams per day");
     }
 }
 
