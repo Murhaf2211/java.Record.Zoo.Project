@@ -5,5 +5,4 @@ public record Animal(
         String name,
         String species,
         int age) {
-
 }
